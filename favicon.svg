@@ -9,5 +9,5 @@
   <rect width="100" height="100" rx="24" fill="#111827"/>
   <rect x="5" y="5" width="90" height="90" rx="21" fill="url(#g)"/>
   <text x="50" y="61" font-size="33" font-family="Arial,sans-serif"
-        font-weight="bold" text-anchor="middle" fill="white">SB</text>
+        font-weight="bold" text-anchor="middle" fill="white">C++</text>
 </svg>

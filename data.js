@@ -32,7 +32,7 @@ const NOTES = [
     fileName: "unit-1-cpp-notes.pdf",
     pages: "Add pages",
     level: "Beginner",
-    url: "pdf/unit1.pdf",
+    url: "https://github.com/Sudarshanbadli/cpp-rcub-university-SBnotes-portal/blob/main/unit1.pdf",
     color: "blue"
   },
 
@@ -56,7 +56,7 @@ const NOTES = [
     fileName: "unit-2-control-statements.pdf",
     pages: "Add pages",
     level: "Intermediate",
-    url: "pdfs/unit2.pdf",
+    url: "https://github.com/Sudarshanbadli/cpp-rcub-university-SBnotes-portal/blob/main/unit2.pdf",
     color: "purple"
   },
 
@@ -80,7 +80,7 @@ const NOTES = [
     fileName: "unit-3-functions-arrays.pdf",
     pages: "Add pages",
     level: "Intermediate",
-    url: "pdfs/unit3.pdf",
+    url: "https://github.com/Sudarshanbadli/cpp-rcub-university-SBnotes-portal/blob/main/unit3.pdf",
     color: "orange"
   },
 
@@ -104,7 +104,7 @@ const NOTES = [
     fileName: "unit-4-oop-concepts.pdf",
     pages: "Add pages",
     level: "Advanced",
-    url: "pdfs/unit4.pdf",
+    url: "https://github.com/Sudarshanbadli/cpp-rcub-university-SBnotes-portal/blob/main/unit4.pdf",
     color: "green"
   },
 
@@ -126,7 +126,7 @@ const NOTES = [
     fileName: "unit-5-advanced-cpp.pdf",
     pages: "Add pages",
     level: "Advanced",
-    url: "pdfs/unit5.pdf",
+    url: "https://github.com/Sudarshanbadli/cpp-rcub-university-SBnotes-portal/blob/main/unit5.pdf",
     color: "pink"
   }
 

@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d18">
+  <meta name="description" content="M.Sc Computer Science study notes, C++ programming notes, unit-wise PDFs and learning resources by Sudarshan Badli.">
+
+  <title>C++ Study Notes | Sudarshan Badli</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+
+      <a href="#" class="brand">
+        <span class="brand-icon">SB</span>
+        <span>
+          <strong>SB<span class="brand-dot">.</span>NOTES</strong>
+          <small>LEARN · BUILD · GROW</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#notes">Study Notes</a>
+        <a href="#about">About</a>
+        <a href="#resources">Resources</a>
+        <a href="https://github.com/Sudarshanbadli"
+           target="_blank" rel="noopener" class="nav-github">
+          GitHub ↗
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section-container" id="home">
+
+      <div class="hero-content">
+
+        <div class="status-label">
+          <span class="status-dot"></span>
+          M.Sc COMPUTER SCIENCE · STUDY PORTAL
+        </div>
+
+        <h1>
+          Master C++.<br>
+          <span class="gradient-text">Build Your Logic.</span>
+        </h1>
+
+        <p class="hero-description">
+          A structured learning library for Object Oriented Programming
+          with C++. Explore unit-wise study materials, detailed explanations,
+          practical programs and downloadable PDF notes.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#notes" class="button button-primary">
+            Explore Study Notes <span>↗</span>
+          </a>
+
+          <a href="https://github.com/Sudarshanbadli"
+             target="_blank" rel="noopener"
+             class="button button-secondary">
+            View GitHub
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong id="totalNotes">05</strong>
+            <span>Study Units</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Learning Focus</span>
+          </div>
+          <div>
+            <strong>PDF</strong>
+            <span>Study Resources</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-visual">
+
+        <div class="code-window">
+          <div class="window-top">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span>main.cpp</span>
+            <span class="window-language">C++</span>
+          </div>
+
+          <div class="code-content">
+            <div><span class="line-number">01</span><span class="code-purple">#include</span> <span class="code-green">&lt;iostream&gt;</span></div>
+            <div><span class="line-number">02</span></div>
+            <div><span class="line-number">03</span><span class="code-purple">using namespace</span> std;</div>
+            <div><span class="line-number">04</span></div>
+            <div><span class="line-number">05</span><span class="code-blue">int</span> main() {</div>
+            <div><span class="line-number">06</span>&nbsp;&nbsp;cout <span class="code-orange">&lt;&lt;</span> <span class="code-green">"Hello, Student!"</span>;</div>
+            <div><span class="line-number">07</span>&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-orange">0</span>;</div>
+            <div><span class="line-number">08</span>}</div>
+          </div>
+
+          <div class="code-footer">
+            <span>● READY TO COMPILE</span>
+            <span>UTF-8 · C++</span>
+          </div>
+        </div>
+
+        <div class="floating-card floating-top">
+          <span class="floating-icon">⌘</span>
+          <span><strong>Learn C++</strong><small>Step by step</small></span>
+        </div>
+
+        <div class="floating-card floating-bottom">
+          <span class="floating-icon purple-icon">✓</span>
+          <span><strong>Structured Notes</strong><small>Unit-wise learning</small></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Course information -->
+    <section class="course-section section-container">
+
+      <div class="section-heading">
+        <span class="eyebrow">YOUR LEARNING PATH</span>
+        <h2>Course <span class="gradient-text">Overview</span></h2>
+      </div>
+
+      <div class="course-grid">
+
+        <article class="course-info-card">
+          <span class="info-icon">🎓</span>
+          <div>
+            <small>PROGRAM</small>
+            <h3>Master of Science</h3>
+            <p>Computer Science</p>
+          </div>
+        </article>
+
+        <article class="course-info-card">
+          <span class="info-icon">📘</span>
+          <div>
+            <small>SUBJECT</small>
+            <h3>Object Oriented Programming</h3>
+            <p>Using C++</p>
+          </div>
+        </article>
+
+        <article class="course-info-card">
+          <span class="info-icon">🏛️</span>
+          <div>
+            <small>UNIVERSITY</small>
+            <h3>RCUB</h3>
+            <p>Kittur Rani Channamma University</p>
+          </div>
+        </article>
+
+        <article class="course-info-card">
+          <span class="info-icon">📅</span>
+          <div>
+            <small>ACADEMIC YEAR</small>
+            <h3>2026–2027</h3>
+            <p>Semester I</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Study notes -->
+    <section class="notes-section section-container" id="notes">
+
+      <div class="notes-heading">
+        <div>
+          <span class="eyebrow">KNOWLEDGE LIBRARY</span>
+          <h2>Explore Study <span class="gradient-text">Notes</span></h2>
+          <p>Choose a unit and access its learning materials.</p>
+        </div>
+
+        <div class="notes-count">
+          <strong id="visibleCount">05</strong>
+          <span>Available units</span>
+        </div>
+      </div>
+
+      <!-- Search -->
+      <div class="filter-bar">
+
+        <div class="search-box">
+          <span>⌕</span>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search topics, units or keywords..."
+            autocomplete="off"
+          >
+          <kbd>SEARCH</kbd>
+        </div>
+
+        <div class="filter-buttons" id="filterButtons">
+          <button class="filter-btn active" data-filter="All">All Units</button>
+          <button class="filter-btn" data-filter="Unit I">Unit I</button>
+          <button class="filter-btn" data-filter="Unit II">Unit II</button>
+          <button class="filter-btn" data-filter="Unit III">Unit III</button>
+          <button class="filter-btn" data-filter="Unit IV">Unit IV</button>
+          <button class="filter-btn" data-filter="Unit V">Unit V</button>
+        </div>
+
+      </div>
+
+      <!-- Cards generated by JavaScript -->
+      <div class="notes-grid" id="notesGrid"></div>
+
+      <div class="empty-state" id="emptyState" hidden>
+        <span>⌕</span>
+        <h3>No notes found</h3>
+        <p>Try another keyword or select a different unit.</p>
+        <button id="resetSearch" class="button button-secondary">Reset Search</button>
+      </div>
+
+    </section>
+
+    <!-- Learning features -->
+    <section class="features-section section-container" id="resources">
+
+      <div class="section-heading">
+        <span class="eyebrow">DESIGNED FOR LEARNING</span>
+        <h2>Everything You Need to <span class="gradient-text">Learn</span></h2>
+        <p>Study resources organized to make learning more structured.</p>
+      </div>
+
+      <div class="features-grid">
+
+        <article class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Detailed Explanations</h3>
+          <p>Understand programming concepts through organized notes and examples.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">💻</div>
+          <h3>Practical Programs</h3>
+          <p>Explore C++ programs, syntax, algorithms and expected outputs.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Exam Preparation</h3>
+          <p>Revise important concepts using short answers and practice questions.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">📄</div>
+          <h3>PDF Downloads</h3>
+          <p>Open and download learning documents whenever you need them.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about-section section-container" id="about">
+
+      <div class="about-card">
+
+        <div class="about-avatar">SB</div>
+
+        <div class="about-content">
+          <span class="eyebrow">ABOUT THE CREATOR</span>
+          <h2>Hi, I'm <span class="gradient-text">Sudarshan Badli.</span></h2>
+
+          <p>
+            A Computer Science student and technology enthusiast interested
+            in programming, web development and AI-powered learning tools.
+            This website is created to organize and share study resources
+            in a simple and accessible format.
+          </p>
+
+          <div class="about-tags">
+            <span>Computer Science</span>
+            <span>C++ Programming</span>
+            <span>Web Development</span>
+            <span>AI Enthusiast</span>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Sudarshanbadli"
+               target="_blank" rel="noopener">GitHub ↗</a>
+
+            <a href="https://linkedin.com/in/sudarshan-badli-4baaa929b/"
+               target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <a href="#" class="brand">
+        <span class="brand-icon">SB</span>
+        <span>
+          <strong>SB<span class="brand-dot">.</span>NOTES</strong>
+          <small>LEARN · BUILD · GROW</small>
+        </span>
+      </a>
+
+      <p>Built with passion, learning and innovation.</p>
+
+      <span class="copyright">
+        © 2026 Sudarshan Badli. All Rights Reserved.
+      </span>
+
+    </div>
+  </footer>
+
+</body>
+</html>
